@@ -1,23 +1,33 @@
 import React from 'react'
 import {Link}  from 'react-router-dom'
+import '../Styles/Navbar.css';
 
 const Navbar = () => {
   return (
     <>
-    <div>
-        <p>Welcome to Our Store Hiscraves</p>
-        <div >
-        <img  src='./Images/vector.png' alt='error'/>
+    <div className='navbar-up'>
+        <p className='text'>Welcome to Our Store Hiscraves</p>
+        <div className='call'  >
+        <img  src='/images/Vector.png' alt='error'/>
+        
         <p>Call us:1234567890</p>
         </div>
         </div>
-        <div>
-            <div>
-                <image src="../Images/Vector(1).png"></image>
-                <img src='../Images/Vector(1).png'/>
+        <div className='navbar-down'>
+            <div className='image'>
+                <img src='/images/Vector1.png' alt='err'/>
             </div>
-            <div></div>
-            <div></div>
+            <div className='logo'>
+                <h6>
+                Logo Here
+                </h6>
+            </div>
+            <div className='img-list'>
+           <div> <img src='/images/Vector2.png' alt='error'/></div>
+           <div><img src='/images/Vector3.png' alt='err'/></div>
+           <div><img src='/images/Vector4.png' alt='err'/></div>
+           <div><img src='/images/Vector5.png' alt='err'/></div>
+            </div>
     </div>
     </>
   )
