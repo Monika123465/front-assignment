@@ -12,26 +12,29 @@
     margin: auto;
     display: flex;
     gap: 60px;
-    margin-top:60px;
-    
+    margin-top: 60px;
+
 }
-.collection{
+
+.collection {
     text-align: center;
 
 }
-.collection p{
+
+.collection p {
     margin-top: 10px;
     font-weight: bold;
 }
 
-.collection:nth-child(1){
+.collection:nth-child(1) {
     margin-left: 260px;
 }
+
 .ellipse1 {
 
     border-radius: 100px;
     background-color: #ddd3eb;
-    
+
 }
 
 .ellipse2 {
@@ -47,41 +50,131 @@
 
 .ellipse4 {
     border-radius: 100px;
-    
+
     background-color: #eff1d9;
 }
 
 .ellipse5 {
     border-radius: 100px;
-    
+
     background-color: #f1dadb;
 }
 
 .ellipse6 {
-    
+
     border-radius: 100px;
     background-color: #d9f1de;
 }
 
-.deals{
-    width:80%;
-    margin-left:200px;
+.deals {
+    width: 80%;
+    margin-left: 200px;
     margin-top: 40px;
 }
-.collection1{
+
+.collection1 {
     display: flex;
     gap: 20px;
 }
-.collection2{
+
+.collection2 {
     display: flex;
     gap: 20px;
     margin-top: 20px;
 
 }
-.collection1 img{
-    width:50%;
-   
+
+.collection1 img {
+    width: 50%;
+
 }
-.collection2 img{
-    width:50%;
+
+.collection2 img {
+    width: 50%;
+}
+
+.diamond-discount {
+    display: flex;
+    width: 70%;
+
+    margin: auto;
+    gap: 20px;
+    align-items: center;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.diamond {
+    background-color: #cccea7;
+    width: 600px;
+    height: 600px;
+    text-align: center;
+
+}
+
+.discount {
+    background-color: #d6bebe;
+    width: 600px;
+    height: 600px;
+    text-align: center;
+
+}
+
+.diamond-discount button {
+    width: 100px;
+    height: 50px;
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+}
+
+.service {
+    display: flex;
+
+    background-color: #f5f4f2;
+}
+
+.quality {
+    width: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.service div:nth-child(1) {
+    margin-left: 250px;
+}
+
+.offer {
+    width: 70%;
+    background-color: #880118;
+    height: 300px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    text-align: center;
+    color: white;
+
+}
+
+.subscribe div {
+    width: 80%;
+    font-size: 20px;
+    margin: auto;
+padding: 40px;
+
+}
+
+input {
+    width: 400px;
+    height: 50px;
+}
+
+.subscribe button {
+    width: 100px;
+    height: 50px;
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+    margin-left: 20px;
 }

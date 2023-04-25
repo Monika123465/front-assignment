@@ -66,6 +66,51 @@ const Home = () => {
                 </div>
             </div>
             <Product/>
+
+            <div className='diamond-discount'>
+          <div className='diamond'>
+          <img src='/images/diamond.png' alt='err' />
+            <h1>Hurry Up!</h1>
+            <h1>85% OFF</h1>
+            <h3>sale</h3>
+            <button>SHOP NOW</button>
+          </div>
+          <div className='discount'>
+            <img src='/images/discount.png' alt='err' />
+            <h1>Hurry Up!</h1>
+            <h1>75% OFF</h1>
+            <h3>sale</h3>
+            <button>SHOP NOW</button>
+          </div>
+            </div>
+
+            <div className='service'>
+                <div className='quality'>
+                    <img src='/images/Vector19.png' alt='err'/>
+                    <p>7 Days Return</p>
+                </div>
+                <div className='quality'>
+                    <img src='/images/Vector20.png' alt='err'/>
+                    <p>Quality Products</p>
+                </div>
+                <div className='quality'>
+                    <img src='/images/Vector21.png' alt='err'/>
+                    <p>Safe Payment</p>
+                </div>
+                <div className='quality'>
+                    <img src='/images/Vector22.png' alt='err'/>
+                    <p>24x7 Helpline</p>
+                </div>
+            </div>
+
+            <div className='offer'>
+                <div className='subscribe'>
+                  <div><h1>Subscribe to get updates on exciting offer & deals</h1></div>  
+                    <input type='text' placeholder='Enter your email'/>
+                    <button>Subscribe</button>
+                </div>
+            </div>
+
          </div>
          
 
