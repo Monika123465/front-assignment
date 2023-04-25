@@ -409,6 +409,74 @@ const Product = () => {
     <div className='view'>
         <button className='view-all'>VIEW ALL</button>
       </div>
+
+      <div className='collections'>
+
+        <div id='secure' className='collection-data'>
+          <div className='collection-img1'>
+          <img src='/images/Rectangle18.png'/>
+          </div>
+          <div className='blurr'>
+           <p>Streetwear Collections </p>
+          </div>
+          
+        </div>
+        <div className='collection-data'>
+          <div className='collection-img2'>
+          <img src='/images/Rectangle19.png'/>
+          </div>
+          <div className='blurr2'>
+           <p>Striped T-Shirts </p>
+          </div>
+          
+        </div>
+
+        <div className='collection-data'>
+          <div className='collection-img3'>
+          <img src='/images/Rectangle20.png'/>
+          </div>
+          <div className='blurr3'>
+           <p>Round Neck T-Shirts </p>
+          </div>
+          
+        </div>
+      </div>
+      <div className='collections'>
+      <div id='secure' className='collection-data'>
+          <div className='collection-img4'>
+          <img src='/images/Rectangle21.png'/>
+          </div>
+          <div className='blurr4'>
+           <p>Printed T-Shirts</p>
+          </div>
+          
+        </div>
+        <div className='collection-data'>
+          <div className='collection-img5'>
+          <img src='/images/Rectangle22.png'/>
+          </div>
+          <div className='blurr5'>
+           <p>Oversized T-Shirts </p>
+          </div>
+          
+        </div>
+
+        <div className='collection-data'>
+          <div className='collection-img6'>
+          <img src='/images/Rectangle23.png'/>
+          </div>
+          <div className='blurr6'>
+           <p>Half Sleeves T-Shirts </p>
+          </div>
+          
+        </div>
+      </div>
+
+      <div className='poster'>
+         <div className='look'>
+            <img src='/images/banner3.png'alt='err'/>
+        </div>
+         </div>
     </>
   )
 }
