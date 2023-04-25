@@ -8,10 +8,10 @@ import Home from './Pages/Home';
 function App() {
   return (
     <>
- {/* <Navbar />  */}
+  <Navbar />  
 
  <Home/>
- {/* <Footer/>  */}
+ <Footer/> 
     </>
   )
 }

@@ -2,21 +2,123 @@
     padding: 0px;
     margin: 0px;
 }
-.trending{
+
+.trending {
     display: flex;
     align-items: center;
-   margin-top: 80px;
-   margin-bottom: 80px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
-.trending img{
-    height:6%;
-    width:27%;
-    
+
+.trending img {
+    height: 6%;
+    width: 27%;
+
 }
-.trending img:nth-child(1){
+
+.trending img:nth-child(1) {
     margin-left: 200px;
 }
-.trending h1{
-    margin-left:100px;
-    margin-right:100px;
+
+.trending h1 {
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+.shirt {
+    background-image: url('../../public/images/Rectangle3.png');
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.shirt div {
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: white;
+    margin-left: 40px;
+}
+
+.shirt div img {
+    position: absolute;
+    margin-left: -10px;
+    margin-top: 15px;
+
+}
+
+.buttons {
+    display: flex;
+
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.btn {
+    width: 40px;
+    height: 40px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 1px solid #E6E6E6;
+    margin-left: 15px;
+
+}
+
+.trending-tshirt {
+    display: flex;
+    gap: 30px;
+    margin-left: 200px;
+    align-items: center;
+}
+
+.cart-img {
+    width: 21%;
+    text-align: center;
+
+}
+
+.tshirt img {
+    width: 100%;
+}
+.shirt-end{
+    background-image: url('../../public/images/Rectangle7.png');
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.shirt-end div {
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: white;
+    margin-left: 40px;
+}
+
+.shirt-end div img {
+    position: absolute;
+    margin-left: -10px;
+    margin-top: 15px;
+
+}
+.view-all{
+    width: 200px;
+    height: 50px;
+    background-color: #770015;
+    color: white;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.look img {
+    width: 100%;
+    height:600px;
 }
